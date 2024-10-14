@@ -1,0 +1,8 @@
+Oct 07, 2024 11:16:05 AM co.edu.uniquindio.preparcial2.preparcial2.persistencia.utils.ArchivoUtil guardarRegistroLog
+INFO: Guardar,Datos guardados correctamente. Estudiante: saddsa,2024-10-07
+Oct 07, 2024 2:11:58 PM co.edu.uniquindio.preparcial2.preparcial2.persistencia.utils.ArchivoUtil guardarRegistroLog
+INFO: Guardar,Datos guardados correctamente. Estudiante: Jorge,2024-10-07
+Oct 07, 2024 2:12:28 PM co.edu.uniquindio.preparcial2.preparcial2.persistencia.utils.ArchivoUtil guardarRegistroLog
+INFO: Guardar,Datos guardados correctamente. Estudiante: Oscar,2024-10-07
+Oct 09, 2024 10:20:15 AM co.edu.uniquindio.preparcial2.preparcial2.persistencia.utils.ArchivoUtil guardarRegistroLog
+INFO: Guardar,Datos guardados correctamente. Estudiante: uwu,2024-10-09

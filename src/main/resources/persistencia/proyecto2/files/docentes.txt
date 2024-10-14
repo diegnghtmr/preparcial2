@@ -1,0 +1,10 @@
+2001;José;Ramírez;M;45;jose.ramirez@example.com;3171234567;Ingeniería de Sistemas;Ingeniero de Sistemas
+2002;Laura;Martínez;F;39;laura.martinez@example.com;3182345678;Matemáticas;Matemática Pura
+2003;Carlos;Sánchez;M;50;carlos.sanchez@example.com;3193456789;Física;Físico
+2004;María;González;F;42;maria.gonzalez@example.com;3204567890;Química;Química Farmacéutica
+2005;Andrés;Hernández;M;37;andres.hernandez@example.com;3215678901;Biología;Biólogo
+2006;Sofía;López;F;46;sofia.lopez@example.com;3226789012;Filosofía;Filósofa
+2007;Ricardo;Morales;M;48;ricardo.morales@example.com;3237890123;Historia;Historiador
+2008;Ana;Díaz;F;41;ana.diaz@example.com;3248901234;Lenguas Modernas;Licenciada en Lenguas
+2009;Fernando;Rojas;M;44;fernando.rojas@example.com;3259012345;Administración de Empresas;Administrador de Empresas
+2010;Mónica;Suárez;F;38;monica.suarez@example.com;3260123456;Psicología;Psicóloga

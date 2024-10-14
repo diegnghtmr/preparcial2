@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="21.0.4" class="java.beans.XMLDecoder">
+ <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.ejercicio2.UniQuindio" id="UniQuindio0">
+  <void property="programas">
+   <void method="add">
+    <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.ejercicio2.Programa">
+     <void property="codigo">
+      <string>55</string>
+     </void>
+     <void property="modalidad">
+      <string>Distancia</string>
+     </void>
+     <void property="nombre">
+      <string>xd</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

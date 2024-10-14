@@ -1,0 +1,8 @@
+001@@123456789@@Cedula de Ciudadania@@Juan@@Perez@@3001234567
+002@@987654321@@Pasaporte@@Maria@@Gomez@@3109876543
+003@@456789123@@Cedula de Extranjeria@@Carlos@@Lopez@@3204567891
+004@@112233445@@Tarjeta de Identidad@@Ana@@Martinez@@3001122334
+005@@998877665@@Cedula de Ciudadania@@Luis@@Rodriguez@@3109988776
+006@@554433221@@Pasaporte@@Sofia@@Fernandez@@3205544332
+77777@@67567657@@Tarjeta de Identidad@@Diegogo@@Uwu@@32432432
+444@@97897897@@Cedula de Ciudadania@@Camilo@@Henao@@32423423

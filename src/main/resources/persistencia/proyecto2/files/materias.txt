@@ -1,0 +1,5 @@
+MAT101@@Matemáticas Básicas@@4@@Teórica
+FIS201@@Física I@@3@@Teórica-Práctica
+ING102@@Inglés I@@3@@Práctica
+CAL101@@Cálculo Diferencial@@4@@Teórica
+PRO101@@Programación I@@4@@Teórica

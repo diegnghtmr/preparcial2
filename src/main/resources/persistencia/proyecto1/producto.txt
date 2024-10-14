@@ -1,0 +1,8 @@
+001#Amborguesa#1500.0
+002#Pan con salsa de tomate#800.0
+003#Helado de changua#400.0
+004#Ajo a la bbq#300.0
+005#perro frío#50.0
+006#Ensalda de mondongo#25.0
+4234234#Agua raspada#300.0
+99990#Viento molido#777.0

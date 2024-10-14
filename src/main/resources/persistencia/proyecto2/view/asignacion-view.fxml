@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="648.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto2.viewController.AsignacionViewController">
+    <VBox alignment="TOP_CENTER" spacing="20" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+        <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Asignación de Materias" />
+
+        <GridPane hgap="10" prefWidth="810.0" vgap="10">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="150.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="200.0" />
+            </columnConstraints>
+
+            <Label text="Código Asignación:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <TextField fx:id="txtCodigoAsignacion" promptText="Ingrese el código de la asignación" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+            <Label text="Código Materia:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <ComboBox fx:id="cbCodigoMateria" prefHeight="25.0" prefWidth="502.0" promptText="Seleccione código de la materia" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+            <Label text="Nombre Materia:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <TextField fx:id="txtNombreMateria" editable="false" promptText="Nombre de la materia" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+            <Label text="Código Docente:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <ComboBox fx:id="cbCodigoDocente" prefHeight="25.0" prefWidth="509.0" promptText="Seleccione código del docente" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+
+        <VBox spacing="10">
+            <Label style="-fx-font-weight: bold;" text="Estudiantes" />
+            <HBox spacing="10">
+                <ComboBox fx:id="cbCodigoEstudiante" prefHeight="25.0" prefWidth="323.0" promptText="Seleccione código del estudiante" />
+                <Button fx:id="btnAgregarEstudiante" onAction="#onAgregarEstudiante" text="Agregar Estudiante" />
+            </HBox>
+            <TableView fx:id="tlbEstudiantesSub" prefHeight="99.0" prefWidth="960.0">
+                <columns>
+                    <TableColumn fx:id="tcCodigoEstudianteSub" prefWidth="100" text="Código" />
+                    <TableColumn fx:id="tcNombreEstudianteSub" prefWidth="150" text="Nombre" />
+                    <TableColumn fx:id="tcApellidoEstudianteSub" prefWidth="150" text="Apellido" />
+                </columns>
+            </TableView>
+        </VBox>
+
+        <HBox alignment="CENTER" spacing="20">
+            <Button fx:id="btnGuardarAsignacion" onAction="#onGuardarAsignacion" style="-fx-font-size: 16px;" text="Guardar Asignación" />
+            <Button fx:id="btnLimpiarFormulario" onAction="#onLimpiarFormulario" style="-fx-font-size: 16px;" text="Limpiar Formulario" />
+        </HBox>
+
+        <Separator />
+
+        <VBox spacing="10">
+            <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Asignaciones Realizadas" />
+            <TableView fx:id="tblAsignaciones" prefHeight="106.0" prefWidth="960.0">
+                <columns>
+                    <TableColumn fx:id="tcCodigoAsignacion" prefWidth="120" text="Código Asignación" />
+                    <TableColumn fx:id="tcCodigoMateria" prefWidth="100" text="Código Materia" />
+                    <TableColumn fx:id="tcNombreMateria" prefWidth="150" text="Nombre Materia" />
+                    <TableColumn fx:id="tcCodigoDocente" prefWidth="100" text="Código Docente" />
+                    <TableColumn fx:id="tcCodigosEstudiantes" prefWidth="489.0" text="Códigos Estudiantes" />
+                </columns>
+            </TableView>
+        </VBox>
+    </VBox>
+</AnchorPane>
