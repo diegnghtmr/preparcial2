@@ -1,4 +1,4 @@
-package co.edu.uniquindio.preparcial2.preparcial2.hilos.ejercicio5;
+package co.edu.uniquindio.preparcial2.preparcial2.hilos.ejercicio5v1;
 
 public class Main {
 
