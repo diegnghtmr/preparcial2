@@ -180,7 +180,7 @@ public class PedidoViewController {
 
     private boolean validarDatos(Pedido pedido) {
         if (pedido.getCliente() == null) {
-            mostrarMensaje("Error", "Cliente no seleccionado", "Debe seleccionar un cliente.", Alert.AlertType.ERROR);
+            mostrarMensaje("Error", "RegistroCovid no seleccionado", "Debe seleccionar un cliente.", Alert.AlertType.ERROR);
             return false;
         }
         if (pedido.getFecha() == null) {

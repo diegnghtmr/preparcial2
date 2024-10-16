@@ -39,7 +39,7 @@
           <children>
             <SplitPane prefHeight="691.0" prefWidth="1280.0">
               <items>
-                <fx:include source="cliente-view.fxml" />
+                <fx:include source="registroCovid-view.fxml" />
               </items>
             </SplitPane>
           </children>

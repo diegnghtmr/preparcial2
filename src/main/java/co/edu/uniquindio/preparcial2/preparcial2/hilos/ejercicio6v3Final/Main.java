@@ -3,28 +3,28 @@ package co.edu.uniquindio.preparcial2.preparcial2.hilos.ejercicio6v3Final;
 public class Main {
     public static void main(String[] args) {
         // Crear instancias de los hilos propios
-        HiloS1 hiloS1 = new HiloS1();
-        HiloS2 hiloS2 = new HiloS2();
-        HiloS3 hiloS3 = new HiloS3();
+        HiloS1 t1 = new HiloS1();
+        HiloS2 t2 = new HiloS2();
+        HiloS3 t3 = new HiloS3();
 
         // Iniciar los hilos
-        hiloS1.start();
-        hiloS2.start();
-        hiloS3.start();
+        t1.start();
+        t2.start();
+        t3.start();
 
         // Esperar a que los hilos terminen
         try {
-            hiloS1.join();
-            hiloS2.join();
-            hiloS3.join();
+            t1.join();
+            t2.join();
+            t3.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         // Realizar las operaciones S4 y S5
-        int a = hiloS1.getResultado();
-        int b = hiloS2.getResultado();
-        int c = hiloS3.getResultado();
+        int a = t1.getResultado();
+        int b = t2.getResultado();
+        int c = t3.getResultado();
 
         int d = a * b; // S4: d = a * b
 

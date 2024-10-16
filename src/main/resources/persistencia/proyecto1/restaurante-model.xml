@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <java version="21.0.4" class="java.beans.XMLDecoder">
  <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Restaurante" id="Restaurante0">
-  <void property="listaCliente">
+  <void property="listaRegistroCovid">
    <void method="add">
     <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Cliente" id="Cliente0">
      <void property="apellido">
@@ -182,7 +182,7 @@
   <void property="listaPedido">
    <void method="add">
     <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Pedido">
-     <void property="cliente">
+     <void property="registroCovid">
       <object idref="Cliente3"/>
      </void>
      <void property="fecha">
@@ -238,7 +238,7 @@
    </void>
    <void method="add">
     <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Pedido">
-     <void property="cliente">
+     <void property="registroCovid">
       <object idref="Cliente3"/>
      </void>
      <void property="fecha">
@@ -309,7 +309,7 @@
    </void>
    <void method="add">
     <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Pedido">
-     <void property="cliente">
+     <void property="registroCovid">
       <object idref="Cliente0"/>
      </void>
      <void property="fecha">
@@ -333,7 +333,7 @@
    </void>
    <void method="add">
     <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Pedido">
-     <void property="cliente">
+     <void property="registroCovid">
       <object idref="Cliente1"/>
      </void>
      <void property="fecha">
@@ -363,7 +363,7 @@
    </void>
    <void method="add">
     <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Pedido">
-     <void property="cliente">
+     <void property="registroCovid">
       <object idref="Cliente2"/>
      </void>
      <void property="fecha">

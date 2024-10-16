@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="21.0.4" class="java.beans.XMLDecoder">
+ <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto3.Universidad" id="Universidad0">
+  <void property="listaRegistroCovid">
+   <void method="add">
+    <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto3.RegistroCovid">
+     <void property="codigo">
+      <string>C001</string>
+     </void>
+     <void property="fechaEntrega">
+      <string>2024-01-20</string>
+     </void>
+     <void property="fechaRegistro">
+      <string>2024-01-15</string>
+     </void>
+     <void property="nombreComuna">
+      <string>Comuna Norte</string>
+     </void>
+     <void property="numeroHabitantes">
+      <int>1500</int>
+     </void>
+     <void property="numeroHabitantesCovid">
+      <int>50</int>
+     </void>
+     <void property="porcentajeCovid">
+      <string>3.3%</string>
+     </void>
+     <void property="sector">
+      <string>Sector 1</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto3.RegistroCovid">
+     <void property="codigo">
+      <string>C002</string>
+     </void>
+     <void property="fechaEntrega">
+      <string>2024-01-25</string>
+     </void>
+     <void property="fechaRegistro">
+      <string>2024-01-16</string>
+     </void>
+     <void property="nombreComuna">
+      <string>Comuna Este</string>
+     </void>
+     <void property="numeroHabitantes">
+      <int>1200</int>
+     </void>
+     <void property="numeroHabitantesCovid">
+      <int>30</int>
+     </void>
+     <void property="porcentajeCovid">
+      <string>2.5%</string>
+     </void>
+     <void property="sector">
+      <string>Sector 3</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto3.RegistroCovid">
+     <void property="codigo">
+      <string>C003</string>
+     </void>
+     <void property="fechaEntrega">
+      <string>2024-01-27</string>
+     </void>
+     <void property="fechaRegistro">
+      <string>2024-01-17</string>
+     </void>
+     <void property="nombreComuna">
+      <string>Comuna Sur</string>
+     </void>
+     <void property="numeroHabitantes">
+      <int>1000</int>
+     </void>
+     <void property="numeroHabitantesCovid">
+      <int>10</int>
+     </void>
+     <void property="porcentajeCovid">
+      <string>1.0%</string>
+     </void>
+     <void property="sector">
+      <string>Sector 2</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto3.RegistroCovid">
+     <void property="codigo">
+      <string>C004</string>
+     </void>
+     <void property="fechaEntrega">
+      <string>2024-01-28</string>
+     </void>
+     <void property="fechaRegistro">
+      <string>2024-01-18</string>
+     </void>
+     <void property="nombreComuna">
+      <string>Comuna Oeste</string>
+     </void>
+     <void property="numeroHabitantes">
+      <int>2000</int>
+     </void>
+     <void property="numeroHabitantesCovid">
+      <int>100</int>
+     </void>
+     <void property="porcentajeCovid">
+      <string>5.0%</string>
+     </void>
+     <void property="sector">
+      <string>Sector 4</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto3.RegistroCovid">
+     <void property="codigo">
+      <string>C005</string>
+     </void>
+     <void property="fechaEntrega">
+      <string>2024-01-30</string>
+     </void>
+     <void property="fechaRegistro">
+      <string>2024-01-19</string>
+     </void>
+     <void property="nombreComuna">
+      <string>Comuna Central</string>
+     </void>
+     <void property="numeroHabitantes">
+      <int>800</int>
+     </void>
+     <void property="numeroHabitantesCovid">
+      <int>20</int>
+     </void>
+     <void property="porcentajeCovid">
+      <string>2.5%</string>
+     </void>
+     <void property="sector">
+      <string>Sector 5</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
