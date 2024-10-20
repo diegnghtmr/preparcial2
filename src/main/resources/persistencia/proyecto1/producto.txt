@@ -6,3 +6,4 @@
 006#Ensalda de mondongo#25.0
 4234234#Agua raspada#300.0
 99990#Viento molido#777.0
+86786786#olamundo#9999.0

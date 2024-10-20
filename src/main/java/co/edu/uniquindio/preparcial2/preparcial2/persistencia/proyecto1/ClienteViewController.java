@@ -158,10 +158,10 @@ public class ClienteViewController {
             if (modelFactory.agregarCliente(cliente)) {
                 listaClientes.add(cliente);
                 limpiarCampos();
-                mostrarMensaje("Información", "RegistroCovid agregado", "El cliente ha sido agregado correctamente.",
+                mostrarMensaje("Información", "Cliente agregado", "El cliente ha sido agregado correctamente.",
                         Alert.AlertType.INFORMATION);
             } else {
-                mostrarMensaje("Error", "RegistroCovid existente", "El cliente ya existe.", Alert.AlertType.ERROR);
+                mostrarMensaje("Error", "Cliente existente", "El cliente ya existe.", Alert.AlertType.ERROR);
             }
         }
     }

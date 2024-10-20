@@ -7,10 +7,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class PersistenciaUtil {
-    public static final String RUTA_ARCHIVO_PRODUCTOS = "src/main/resources/persistencia/proyecto3/producto.txt";
-    public static final String RUTA_ARCHIVO_CLIENTES = "src/main/resources/persistencia/proyecto3/registro-covid.txt";
+    public static final String RUTA_ARCHIVO_PRODUCTOS = "src/main/resources/persistencia/proyecto1/producto.txt";
+    public static final String RUTA_ARCHIVO_CLIENTES = "src/main/resources/persistencia/proyecto1/cliente.txt";
 
-    public static final String RUTA_XML_RESTAURANTE = "src/main/resources/persistencia/proyecto3/universidad-model.xml";
+    public static final String RUTA_XML_RESTAURANTE = "src/main/resources/persistencia/proyecto1/restaurante-model.xml";
 
     public static void cargarDatosArchivos(Restaurante restaurante) throws FileNotFoundException, IOException {
         ArrayList<Producto> productosCargados = cargarProductos();
