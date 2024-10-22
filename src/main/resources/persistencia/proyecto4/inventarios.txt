@@ -1,0 +1,5 @@
+001@@Sucursal Centro Bogotá@@101@@50
+002@@Sucursal Norte Medellín@@102@@30
+003@@Sucursal Cali Sur@@103@@100
+004@@Sucursal Barranquilla@@104@@25
+005@@Sucursal Bucaramanga Centro@@105@@60

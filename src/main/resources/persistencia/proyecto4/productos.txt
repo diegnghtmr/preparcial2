@@ -1,0 +1,5 @@
+101@@Aceite Vegetal 1L@@79123456@@8500.0
+102@@Arroz Blanco 5kg@@1023456789@@22000.0
+103@@Cuadernos Universitarios@@90876543@@6500.0
+104@@Queso Costeño 500g@@123456789@@14000.0
+105@@USB 32GB@@76123456@@32000.0

@@ -47,7 +47,7 @@
     </object>
    </void>
    <void method="add">
-    <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Cliente">
+    <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Cliente" id="Cliente0">
      <void property="apellido">
       <string>Lopez</string>
      </void>
@@ -201,6 +201,48 @@
     </object>
    </void>
   </void>
+  <void property="listaPedido">
+   <void method="add">
+    <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Pedido">
+     <void property="cliente">
+      <object idref="Cliente0"/>
+     </void>
+     <void property="fecha">
+      <object class="java.time.LocalDate" method="of">
+       <int>2024</int>
+       <int>10</int>
+       <int>10</int>
+      </object>
+     </void>
+     <void property="listaProducto">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Producto" id="Producto0">
+         <void property="codigo">
+          <string>004</string>
+         </void>
+         <void property="nombre">
+          <string>Ajo a la bbq</string>
+         </void>
+         <void property="precio">
+          <double>300.0</double>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Producto0"/>
+       </void>
+       <void method="add">
+        <object idref="Producto0"/>
+       </void>
+      </object>
+     </void>
+     <void property="total">
+      <double>900.0</double>
+     </void>
+    </object>
+   </void>
+  </void>
   <void property="listaProducto">
    <void method="add">
     <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Producto">
@@ -242,17 +284,7 @@
     </object>
    </void>
    <void method="add">
-    <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Producto">
-     <void property="codigo">
-      <string>004</string>
-     </void>
-     <void property="nombre">
-      <string>Ajo a la bbq</string>
-     </void>
-     <void property="precio">
-      <double>300.0</double>
-     </void>
-    </object>
+    <object idref="Producto0"/>
    </void>
    <void method="add">
     <object class="co.edu.uniquindio.preparcial2.preparcial2.persistencia.proyecto1.Producto">

@@ -1,0 +1,8 @@
+79123456##Sucursal Centro Bogotá##Aceite Vegetal 1L##50##8500.0
+1023456789##Sucursal Norte Medellín##Arroz Blanco 5kg##30##22000.0
+90876543##Sucursal Cali Sur##Cuadernos Universitarios##100##6500.0
+123456789##Sucursal Barranquilla##Queso Costeño 500g##25##14000.0
+76123456##Sucursal Bucaramanga Centro##USB 32GB##60##32000.0
+79123456##Sucursal Barranquilla##USB 32GB##25##32000.0
+123456789##Sucursal Barranquilla##USB 32GB##25##32000.0
+90876543##Sucursal Norte Medellín##Aceite Vegetal 1L##30##8500.0
